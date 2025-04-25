@@ -2,8 +2,8 @@ from playwright.sync_api import sync_playwright
 from user_utils import get_random_user
 import time
 import pytest
-import sqlite3
-import random
+#import sqlite3
+#import random
 
 def test_register_new_user():
     id, name, email, password, firstName, lastName, company, address, address2, state, city, zipcode, mobileNumber = get_random_user()
